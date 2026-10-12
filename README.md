@@ -27,12 +27,19 @@ Analytical Visualizations Included
 The pipeline generates 7 distinct graphical assets to segment the catalog:
 
 **Chart 1: Content Mix Breakdowns** – A proportional evaluation detailing the percentage margin between Movie and TV Show listings.
+
 **Chart 2: Library Additions Velocity** – A chronological timeline mapping the overall growth curve of library uploads.
+
 **Chart 3: Genre Performance Metrics** – A structured distribution tracking individual genres to identify consumer demand trends.
+
 **Chart 4: Target Demographics Matrix** – A breakdown of maturity ratings (TV-MA, TV-14, PG-13) mapping core user age segments.
+
 **Chart 5: Film Asset Duration** – A runtime distribution histogram charting the typical length of movie assets.
+
 **Chart 6: Geographic Output Centers** – A volume matrix mapping international production hubs outside the domestic United States.
+
 **Chart 7: Catalog Upload Seasonality** – A monthly heatmap cross-tabulating release drops to detect calendar-based launch strategies.
+
 
 Content Strategy Memo: 3 Actionable Business Insights
 
