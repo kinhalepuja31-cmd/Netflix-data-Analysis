@@ -1,11 +1,11 @@
 **# Netflix-data-Analysis
 
 
-Project Overview
+**Project Overview**
 
 This project delivers a comprehensive Exploratory Data Analysis (EDA) on a raw streaming platform catalog dataset. Moving from a raw database dump to a data-driven business narrative, this analysis provides the quantitative insights required by a modern Content Strategy and Corporate Growth team to optimize streaming library metrics.
 
-Core Objectives
+**Objectives**
 
 **Data Validation:** Clean raw structural data, handle null fields, convert data types, and remove non-statistical administrative items.
 
@@ -20,8 +20,8 @@ To ensure complete statistical accuracy across the analytical pipeline, the raw 
 1. Imputation: Null fields within heavy text layers (`director`, `cast`, `country`) were updated with an `'Unknown'` placeholder string to prevent aggregation drop-outs.
 2. Maturity Fill: Minor missing values in `rating` were assigned an `'Unknown'` marker. Missing rows in `date_added` and `duration` were dropped due to low volume (<0.1% of the dataset).
 3. Data Type Correction: The `date_added` string field was formatted into an analytical `datetime64[ns]` timestamp to unlock timeline feature extractions (`year_added`, `month_added`).
-4.Column Dropping: The administrative rows `show_id`, `title`, and `description` were discarded via `df.drop()` as they contain distinct identifiers that yield zero statistical value for macro trends.
-5.  Array Exploding: Multivalue fields wrapped inside commas (`listed_in` and `country`) were systematically split and exploded into unique index lines to allow individual genre and regional tracking.
+4. Column Dropping: The administrative rows `show_id`, `title`, and `description` were discarded via `df.drop()` as they contain distinct identifiers that yield zero statistical value for macro trends.
+5. Array Exploding: Multivalue fields wrapped inside commas (`listed_in` and `country`) were systematically split and exploded into unique index lines to allow individual genre and regional tracking.
 
 Analytical Visualizations Included
 The pipeline generates 7 distinct graphical assets to segment the catalog:
